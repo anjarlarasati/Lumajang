@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#ffce01</color>
+    <color name="colorPrimaryDark">#fff7a3</color>
+    <color name="colorAccent">#0d95b4</color>
+
+    <color name="colorNavigationIcon">#dae9f6</color>
+    <color name="colorNavigationText">#ffffff</color>
+
+    <color name="biru">#5bc9e2</color>
+    <color name="hijau">#31ae46</color>
+    <color name="kuning">#ffce01</color>
+    <color name="biru_tulisan">#0d95b4</color>
+</resources>

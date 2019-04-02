@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    android:background="#efeeee"
+    tools:context=".Fragment.Category.FragmentCategory">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:orientation="horizontal">
+
+                    <ImageButton
+                        android:id="@+id/btn_wisataAlam"
+                        android:background="#fff"
+                        android:src="@drawable/btn_wisataalam"
+                        android:scaleType="fitCenter"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        />
+                <LinearLayout
+                    android:layout_width="10dp"
+                    android:layout_height="match_parent"/>
+
+                <ImageButton
+                    android:id="@+id/btn_kolamRenang"
+                    android:background="#fff"
+                    android:src="@drawable/btn_kolamrenang"
+                    android:scaleType="fitCenter"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    />
+
+
+            </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/btn_pantai"
+                android:background="#fff"
+                android:src="@drawable/btn_pantai"
+                android:scaleType="fitCenter"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                />
+            <LinearLayout
+                android:layout_width="10dp"
+                android:layout_height="match_parent"/>
+
+            <ImageButton
+                android:id="@+id/btn_kuliner"
+                android:background="#fff"
+                android:src="@drawable/btn_kuliner"
+                android:scaleType="fitCenter"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/btn_hotel"
+                android:background="#fff"
+                android:src="@drawable/btn_hotel"
+                android:scaleType="fitCenter"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                />
+            <LinearLayout
+                android:layout_width="10dp"
+                android:layout_height="match_parent"/>
+
+            <ImageButton
+                android:id="@+id/btn_sejarah"
+                android:background="#fff"
+                android:src="@drawable/btn_sejarah"
+                android:scaleType="fitCenter"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+    <!--<GridView-->
+        <!--android:id="@+id/grid"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:columnWidth="90dp"-->
+        <!--android:numColumns="auto_fit"-->
+        <!--android:verticalSpacing="10dp"-->
+        <!--android:horizontalSpacing="10dp"-->
+        <!--android:stretchMode="columnWidth"-->
+        <!--android:gravity="center"/>-->
+</FrameLayout>

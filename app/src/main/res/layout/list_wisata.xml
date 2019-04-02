@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#fff"
+    android:padding="5dp"
+    android:layout_marginBottom="2dp">
+
+    <ImageView
+        android:id="@+id/img_wisata"
+        android:layout_width="match_parent"
+        android:layout_height="400px"
+        android:scaleType="centerCrop"
+        android:src="@drawable/selokambang" />
+
+    <LinearLayout
+        android:background="@color/kuning"
+        android:layout_width="match_parent"
+        android:layout_height="51dp"
+        android:orientation="vertical"
+        android:padding="10px">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/txt_nama"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20px"
+                android:text="Pemandian Selokambang"
+                android:textColor="#fff"
+                android:textStyle="bold"
+                android:textAllCaps="true"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5px">
+
+            <ImageView
+
+                android:layout_marginLeft="20px"
+                android:layout_width="40px"
+                android:layout_height="30px"
+                android:src="@drawable/ic_location" />
+
+            <TextView
+                android:layout_marginRight="10px"
+                android:id="@+id/txt_lokasi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10px"
+                android:text="Lokasi wisata"
+                android:textColor="#fff"
+                android:textSize="12sp" />
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>
